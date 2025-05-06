@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiBadge-badge {
+  background: #ff5252 !important;
+}
+
+body {
+  font-family: "Montserrat", serif !important;
+  background: #f7f7f7;
+}
+
+.text-primary {
+  color: #3872fa !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc !important;
+  border-radius: 10px !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+
+.btn {
+  padding: 8px 16px !important;
+}
+
+.btn-sm {
+  padding: 6px 20px !important;
+  font-size: 13px !important;
+}
+
+.btn-blue {
+  background: #3872fa !important;
+  color: white !important;
+
+}
+
+.btn-blue:hover {
+  background: #2e62e3 !important;
+
+}
+
+th.MuiTableCell-root {
+  @apply bg-[#f1f1f1] py-2
+}
+
+a.active button {
+  background: #dcdcdc !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #dedede !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.otpBox input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.MuiTableBody-root tr:nth-child(even) {
+  background-color: #f1f1f1 !important;
+}
+
+button .MuiCircularProgress-root {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.react-international-phone-input-container input {
+  width: 100% !important;
+}
+
+.react-international-phone-country-selector button {
+  width: 60px !important;
+}
+
+.Mui-focused fieldset legend {
+  display: none !important;
+}
+
+.zoomProductSliderThubs .swiper-slide {
+  height: auto !important;
+}
+
+.zoomProductSliderThubs .swiper-button-next {
+  bottom: 0 !important;
+  top: inherit !important;
+  right: inherit !important;
+  width: 100% !important;
+  border-radius: 0px;
+  height: 30px !important;
+  background: #f6f5f5 !important;
+  transition: all 0.3s;
+}
+
+.zoomProductSliderThubs .swiper-button-prev {
+  top: 20px !important;
+  left: 0 !important;
+  width: 100% !important;
+  border-radius: 0px;
+  height: 30px !important;
+  background: #f6f5f5 !important;
+  transition: all 0.3s;
+}
+
+.zoomProductSliderThubs .swiper-button-next::after {
+  transform: rotate(90deg);
+}
+
+.zoomProductSliderThubs .swiper-button-prev::after {
+  transform: rotate(90deg);
+}
+
+.zoomProductSliderThubs .swiper-button-next:hover,
+.zoomProductSliderThubs .swiper-button-prev:hover {
+  background-color: #ff5252 !important;
+}
+
+.zoomProductSliderThubs .swiper-button-next:hover::after,
+.zoomProductSliderThubs .swiper-button-prev:hover::after {
+  color: white !important;
+}
+
+.zoomProductSliderThubs .swiper-wrapper {
+  padding-top: 35px !important;
+}
+
+.zoomProductSliderThubs .swiper-button-next {
+  bottom: 0 !important;
+  top: inherit !important;
+  right: inherit !important;
+  width: 100% !important;
+  border-radius: 0px;
+  height: 30px !important;
+  background: #f6f5f5 !important;
+  transition: all 0.3s;
+
+}
+
+.zoomProductSliderThubs .swiper-button-prev {
+  top: 20px !important;
+  left: 0 !important;
+  width: 100% !important;
+  border-radius: 0px;
+  height: 30px !important;
+  background: #f6f5f5 !important;
+  transition: all 0.3s;
+}
+
+.zoomProductSliderThubs .swiper-button-next::after {
+  transform: rotate(90deg);
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.zoomProductSliderThubs .swiper-button-prev::after {
+  color: black !important;
+  font-size: 20px !important;
+  transform: rotate(90deg);
+}
+
+.zoomProductSliderThubs .swiper-button-next:hover,
+.zoomProductSliderThubs .swiper-button-prev:hover {
+  background-color: #ff5252 !important;
+}
+
+.zoomProductSliderThubs .swiper-button-next:hover::after,
+.zoomProductSliderThubs .swiper-button-prev:hover::after {
+  color: white !important;
+}
